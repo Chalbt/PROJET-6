@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-header {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.menu-header a {
+    margin-left: 60px;
+    text-decoration: none;
+    color: red;
+    font-size: 24px;
+}
+
+.menu-header a:focus {
+    text-decoration: underline;
+}
+
+.logo {
+    display: flex;
+    align-items: baseline;
+}
+
+.logo img {
+    margin-left: 10px;
+}

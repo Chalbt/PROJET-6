@@ -1,0 +1,33 @@
+.banniere-container {
+    position: relative;
+    margin-top: 40px;
+    background: black;
+    border-radius: 25px;
+    mix-blend-mode: darken;
+  }
+  
+  .banniere-img {
+    background-size: cover;
+    background-position: center;
+    min-height: 223px;
+    border-radius: 25px;
+    opacity: 0.7;
+  }
+  
+  .banniere-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+    width: 100%;
+  }
+
+  .banniere-title {
+    font-size: 48px;
+    font-weight: 500;
+  }
+
+
+    
