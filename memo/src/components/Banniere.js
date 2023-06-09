@@ -15,13 +15,6 @@ import "../styles/Banniere.css"
       </div>
     );
   }
-  
+
   
   export default Banniere;
-  
-
-/*return (
-    <div className="banniere-img">
-        <img alt="photo de la mer" src={Banniere1} />
-    </div>
-)*/
