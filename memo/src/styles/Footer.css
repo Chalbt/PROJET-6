@@ -1,0 +1,26 @@
+.footer {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: -60px;
+    margin-right: -60px;
+}
+
+.logo-footer {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.logo-footer img {
+    margin-left: 5px;
+}
+
+.text-footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
