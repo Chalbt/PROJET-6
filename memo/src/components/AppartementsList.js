@@ -1,17 +1,15 @@
+import AppartementCard from "./AppartementsCard";
+import appartements from "../datas/logments.json";
+import {Link} from "react-router-dom"
+
 function AppartementsList() {
-    return (
-        <ul className='appartements-list'>
-				{plantList.map(({ id, cover, name, water, light }) => (
-					<PlantItem
-						id={id}
-						cover={cover}
-						name={name}
-						water={water}
-						light={light}
-					/>
-				))}
-			</ul>
-    )
+  return (
+    <div>
+      {appartements.map((appartement) => (
+        <Link to={`/appartement/${appartement.id}`}><AppartementCard key={appartement.id} appartement={appartement} /></Link>
+      ))}
+    </div>
+  );
 }
 
-export default AppartementsList
+export default AppartementsList;

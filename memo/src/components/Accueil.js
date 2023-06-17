@@ -1,12 +1,11 @@
 import Banniere from "./Banniere"
-import Footer from "./Footer"
+import AppartementsList from "./AppartementsList"
 
 function Accueil() {
     return (
         <div>
             <Banniere />
-            {/*<AppartementList />*/}
-            <Footer />
+            <AppartementsList />
         </div>
     )
 }

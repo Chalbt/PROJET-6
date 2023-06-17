@@ -1,13 +1,14 @@
 import Logo from "./Logo"
 import "../styles/Header.css"
+import {Link} from "react-router-dom"
 
 function Header() {
     return (
         <div className="header">
-            <Logo />
+            <Link to="/"><Logo /></Link>
             <ul className='menu-header'>
-                <li><a href="">Accueil</a></li>
-                <li><a href="">A propos</a></li>
+                <li><Link to="/">Accueil</Link></li>
+                <li><Link to="/a-propos">A propos</Link></li>
             </ul>
         </div>
         
