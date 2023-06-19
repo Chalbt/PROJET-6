@@ -1,0 +1,31 @@
+.appartements-card {
+    position: relative;
+    border-radius: 25px;
+    margin-top: 30px;
+}
+
+.appartements-card img {
+    height: 340px;
+    width: 340px;
+    border-radius: 25px;
+}
+
+.appartements-titre {
+    position: absolute;
+    bottom: 2px;
+    left: 10px;
+    color: black;
+    width: 250px;
+}
+
+.appartements-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #F6F6F6;
+    padding-top: 5px;
+    padding-bottom: 30px;
+}
