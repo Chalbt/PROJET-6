@@ -45,9 +45,25 @@
     margin-left: 10px; 
 }
 
+.filled-star, .empty-star {
+    width: 24px;
+    height: 24px;
+}
+
+.rating span {
+    margin-left: 5px;
+}
+
+.rating {
+    margin-top: 10px;
+}
+
 .carroussel
 {
     margin-top: 30px;
+    width: 100%;
+    height: auto;
+    position: relative;
 }
 
 .carroussel img {
@@ -56,35 +72,37 @@
     object-fit: cover;
     border-radius: 20px;
 }
-
-.image-slider {
-    position: relative;
-  }
   
-  .slider-image {
-    width: 100%;
-    height: auto;
-  }
-  
-  .slider-arrow {
+.prev-arrow,
+.next-arrow {
     position: absolute;
-    top: 40%;
+    top: 50%;
     transform: translateY(-50%);
-    width: 30px;
-    height: 30px;
     background-color: transparent;
     border: none;
-    color: #ffffff;
+    outline: none;
+    color: white;
     font-size: 100px;
-    cursor: pointer;
-  }
+}
   
-  .prev-arrow {
-    left: 10px;
-  }
+.prev-arrow {
+    left: 20px;
+}
   
-  .next-arrow {
-    right: 10px;
-  }
+.next-arrow {
+    right: 20px;
+}
+
+.slider-arrow img {
+    width: 46px;
+    height: 79px;
+}
+  
+.image-counter {
+    position: absolute;
+    margin-left: 50%;
+    top: 90%;
+    color: white;
+}
   
 
