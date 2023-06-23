@@ -2,7 +2,7 @@
     position: relative;
     margin-top: 40px;
     background: black;
-    border-radius: 25px;
+    border-radius: 10px;
     mix-blend-mode: darken;
   }
   
@@ -10,7 +10,7 @@
     background-size: cover;
     background-position: center;
     min-height: 223px;
-    border-radius: 25px;
+    border-radius: 10px;
     opacity: 0.7;
   }
   
@@ -27,6 +27,26 @@
   .banniere-title {
     font-size: 48px;
     font-weight: 500;
+  }
+
+  @media screen and (max-width: 390px) {
+
+    body {
+      margin: 20px 20px 0 20px;
+    }
+
+    .banniere-img {
+      min-height: 111px;
+    }
+
+    .banniere-title {
+      font-size: 24px;
+      font-weight: 500;
+      max-width: 70%;
+      text-align: left;
+      margin-left: 10px;
+    }
+
   }
 
 

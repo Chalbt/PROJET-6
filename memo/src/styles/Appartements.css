@@ -23,7 +23,7 @@
 }
 
 .tag {
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #FF6060;
     color: white;
     padding: 5px 15px 5px 15px;
@@ -70,7 +70,7 @@
     width: 100%;
     height: 400px;
     object-fit: cover;
-    border-radius: 20px;
+    border-radius: 10px;
 }
   
 .prev-arrow,
@@ -103,6 +103,49 @@
     margin-left: 50%;
     top: 90%;
     color: white;
+}
+
+@media screen and (max-width: 390px) {
+
+    .carroussel img {
+        height: 255px;
+    }
+
+    .infos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .info-proprietaire {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .proprietaire img {
+        margin-left: 3px;
+        height: 32px;
+        width: 32px;
+    }
+
+    .rating img {
+        height: 13px;
+        width: 13px;
+    }
+
+    .slider-arrow img {
+        width: 11px;
+        height: 19px;
+    }
+
+    .rating span {
+        margin-left: 0;
+    }
+
 }
   
 

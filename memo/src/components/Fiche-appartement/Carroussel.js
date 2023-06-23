@@ -14,12 +14,17 @@ const Carrousel = ({ images }) => {
   };
 
   const showArrows = images.length > 1;
+  const showCounter = images.length > 1;
 
   return (
     <div className="carroussel">
       <div className="image-container">
         <img src={images[currentImageIndex]} alt={` ${currentImageIndex + 1}`} />
-        <div className="image-counter">{currentImageIndex + 1}/{images.length}</div>
+        {showCounter && (
+          <div className="image-counter">
+          {currentImageIndex + 1}/{images.length}
+          </div>
+        )}
       </div>
 
       {showArrows && (
