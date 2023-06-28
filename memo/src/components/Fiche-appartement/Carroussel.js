@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import PrevArrow from "../../assets/prev-arrow.png"
-import NextArrow from "../../assets/next-arrow.png"
+import PrevArrow from "../../assets/prev-arrow.png";
+import NextArrow from "../../assets/next-arrow.png";
 
 const Carrousel = ({ images }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

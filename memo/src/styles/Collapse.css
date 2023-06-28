@@ -1,0 +1,43 @@
+.collapse-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+  
+  .collapse-content.open {
+    max-height: 500px;
+    max-width: 70%;
+    transform: translate(20%);
+    background-color: #F6F6F6;;
+  }
+
+  .collapse-content {
+    max-width: 70%;
+    transform: translate(20%);
+  }
+
+  .title-collapse {
+    background-color: #FF6060;
+    color: white;
+    font-family:"Montserrat";
+    font-size: 30px;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: none;
+  }
+  
+  .a-propos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .collapse-fiche-appartement {
+    display: flex;
+  }
+  

@@ -3,7 +3,9 @@ import appartements from "../datas/logements.json";
 import Tags from "./Fiche-appartement/Tags"
 import Rating from "./Fiche-appartement/Rating";
 import Carroussel from "./Fiche-appartement/Carroussel";
-import "../styles/Appartements.css"
+import Collapse from "./Fiche-appartement/Collapse";
+import "../styles/Appartements.css";
+import "../styles/Collapse.css";
 
 
 function Appartements() {
@@ -40,8 +42,9 @@ function Appartements() {
             <Rating rating={appartement.rating} />
           </div>
         </div>
-        <div className="collapse">
-
+        <div className="collapse-fiche-appartement">
+          <Collapse title="Description" content={appartement.description}/>
+          <Collapse title="Équipements" content={appartement.equipments}/>
         </div>
      </div>
     );
