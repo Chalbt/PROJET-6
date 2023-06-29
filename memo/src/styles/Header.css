@@ -31,15 +31,15 @@
     margin-left: 10px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 767px) {
 
     .logo img {
         width: 30px;
     }
 
     .menu-header a {
-        font-size: 12px;
-        margin-left: 10px;
+        font-size: 20px;
+        margin-left: 15px;
     }
 
 }

@@ -22,12 +22,16 @@ function Appartements() {
 
     const { host } = appartement;
     const { pictures } = appartement;
+
+    const renderEquipments = () => {
+      return appartement.equipments.map((equipments, index) => (
+          <li key={`${index}-${equipments}`} className='equipments-list'>{equipments}</li>
+      ));
+  };
   
     return (
      <div className="fiche-appartement">
-        
           <Carroussel images={pictures} />
-        
         <div className="infos">
           <div className="info-appartement">
             <h2>{appartement.title}</h2>
@@ -43,8 +47,12 @@ function Appartements() {
           </div>
         </div>
         <div className="collapse-fiche-appartement">
-          <Collapse title="Description" content={appartement.description}/>
-          <Collapse title="Équipements" content={appartement.equipments}/>
+          <div className="collapse-appartement">
+            <Collapse title="Description" content={appartement.description}/>
+          </div>
+          <div className="collapse-appartement">
+            <Collapse title="Équipements" content={renderEquipments()}/>
+          </div>
         </div>
      </div>
     );

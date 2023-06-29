@@ -34,14 +34,14 @@
     padding-bottom: 30px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 767px) {
     
     .appartements-list {
         background-color: white;
     }
 
     .appartements-card img {
-        height: 250px;
+        width: 100%;
     }
 
 }

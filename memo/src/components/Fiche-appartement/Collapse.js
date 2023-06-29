@@ -11,15 +11,15 @@ function Collapse({ title, content}) {
   };
 
   return (
-    <div>
-      <button className="title-collapse" onClick={handleToggle}>
+    <div className='each-collapse'>
+      <div className="title-collapse" onClick={handleToggle}>
         {title}
         {open ? (
           <img className="collapse-icon" src={ArrowTop} alt="Arrow Top" />
         ) : (
           <img className="collapse-icon" src={ArrowBottom} alt="Arrow Bottom" />
         )}
-      </button>
+      </div>
       <div className={`collapse-content ${open ? 'open' : ''}`}>
         <p>{content}</p>
       </div>

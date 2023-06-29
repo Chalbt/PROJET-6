@@ -7,17 +7,27 @@
 }
 
 .error {
-    font-size: 288px;
+    font-size: 250px;
     font-weight: 700; 
+    margin-bottom: 60px;
 }
 
 .oups {
     font-size: 36px;
     font-weight: 500;
+    margin-bottom: 60px;
+    text-align: center;
 }
 
 .back-accueil {
     font-size: 18px;
     font-weight: 500;
     color: #FF6060;
+}
+
+@media screen and (max-width: 767px) {
+
+    .error {
+        font-size: 200px;
+    }
 }
