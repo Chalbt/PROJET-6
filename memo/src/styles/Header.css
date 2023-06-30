@@ -3,6 +3,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin: 40px 60px 0 60px;
 }
 
 .menu-header {
@@ -36,17 +37,25 @@
     height: 70px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width : 375px) and (max-width: 767px)  {
+
+    .header {
+        margin: 10px 10px;
+    }
 
     .menu-header a {
-        font-size: 20px;
+        font-size: 13px;
         margin-left: 15px;
         text-transform: uppercase;
     }
 
-    .k-logo {
-        height: 50px;
-        width: auto;
+    .logo img {
+        margin-left: 5px;
+        height: 30px;
+    }
+
+    .logo img.k-logo {
+        height: 40px;
     }
 
 }
