@@ -40,7 +40,12 @@
         background-color: white;
     }
 
+    .appartements-card {
+        width: 100%;
+    }
+
     .appartements-card img {
+        height: 485px;
         width: 100%;
     }
 
