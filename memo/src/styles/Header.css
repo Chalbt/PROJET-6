@@ -29,17 +29,24 @@
 
 .logo img {
     margin-left: 10px;
+    height: 50px;
+}
+
+.logo img.k-logo {
+    height: 70px;
 }
 
 @media screen and (max-width: 767px) {
 
-    .logo img {
-        width: 30px;
-    }
-
     .menu-header a {
         font-size: 20px;
         margin-left: 15px;
+        text-transform: uppercase;
+    }
+
+    .k-logo {
+        height: 50px;
+        width: auto;
     }
 
 }

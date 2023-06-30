@@ -6,7 +6,7 @@ import ALogo from "../assets/a-logo.png"
 function Logo() {
     return (
         <div className="logo">
-            <img alt="k-logo" src={KLogo} />
+            <img className='k-logo' alt="k-logo" src={KLogo} />
             <img alt="maison-logo" src={MaisonLogo} />
             <img alt="s-logo" src={SLogo} />
             <img alt="a-logo" src={ALogo} />
