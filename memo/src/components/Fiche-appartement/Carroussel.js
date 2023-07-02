@@ -16,8 +16,10 @@ const Carrousel = ({ images }) => {
   const showArrows = images.length > 1;
   const showCounter = images.length > 1;
 
+  const isMobile = window.innerWidth >= 375 && window.innerWidth <= 767;
+
   return (
-    <div className="carroussel">
+    <div className={`carroussel ${isMobile ? 'mobile' : ''}`}>
       <div className="image-container">
         <img src={images[currentImageIndex]} alt={` ${currentImageIndex + 1}`} />
         {showCounter && (
