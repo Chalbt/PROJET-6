@@ -6,7 +6,7 @@ function AppartementsList() {
   return (
     <div className="appartements-list">
       {appartements.map((appartement) => (
-        <Link to={`/appartement/${appartement.id}`}><AppartementCard key={appartement.id} appartement={appartement} /></Link>
+        <Link to={`/appartement/${appartement.id}`} key={appartement.id}><AppartementCard appartement={appartement} /></Link>
       ))}
     </div>
   );
