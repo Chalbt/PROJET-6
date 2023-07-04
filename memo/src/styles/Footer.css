@@ -1,9 +1,15 @@
+.a-propos {
+    margin-bottom: 286px;
+}
+
 .footer {
     background-color: black;
     color: white;
     display: flex;
     flex-direction: column;
     width: 100%;
+    height: 150px;
+    margin-top: auto;
 }
 
 .logo-footer {
@@ -25,13 +31,8 @@
 }
 
 @media screen and (min-width : 375px) and (max-width: 767px) {
-
-    .footer {
-        height: 200px;
-    }
-
-    .logo-footer {
-        margin-top: 60px;
+    .a-propos {
+        margin-bottom: 473px;
     }
 
 }

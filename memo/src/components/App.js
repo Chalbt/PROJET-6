@@ -18,7 +18,7 @@ function App() {
           <Route path="/a-propos" element={<APropos />} />
           <Route path="/appartement/:id" element={<Appartement />} />
           <Route path="/*" element={<Error />} />
-          </Routes>
+        </Routes>
         <Footer />
       </Router>
     </div>   
