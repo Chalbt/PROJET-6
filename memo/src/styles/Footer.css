@@ -1,7 +1,3 @@
-.a-propos {
-    margin-bottom: 286px;
-}
-
 .footer {
     background-color: black;
     color: white;
@@ -31,8 +27,5 @@
 }
 
 @media screen and (min-width : 375px) and (max-width: 767px) {
-    .a-propos {
-        margin-bottom: 473px;
-    }
-
+   
 }

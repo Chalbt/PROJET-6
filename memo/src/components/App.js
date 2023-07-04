@@ -10,7 +10,7 @@ import Error from "./Error";
 
 function App() {
   return (
-    <div>
+    <div className='body2'>
       <Router>
         <Header />
         <Routes>

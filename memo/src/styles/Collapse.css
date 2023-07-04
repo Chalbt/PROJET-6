@@ -9,7 +9,6 @@
 .collapse-fiche-appartement {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 141px;
 }
 
 .collapse-appartement {
@@ -59,7 +58,6 @@
         display: flex;
         flex-direction: column;
         width: 100%;
-        margin-bottom: 290px;
     }
 
     .collapse-appartement {
